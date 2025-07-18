@@ -30,3 +30,12 @@
 .nav-links li a:hover {
   color: #00bcd4;
 }
+
+.logout-btn{
+    background-color: red;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}

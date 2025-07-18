@@ -20,6 +20,7 @@ const AdminLogin = () => {
     .then(res => res.json())
     .then(data => {
       if (data.admin) {
+        localStorage.setItem("isAdminLoggedIn", true);
         navigate("/admin-dashboard");
       } else {
         setError("Invalid username or password");
